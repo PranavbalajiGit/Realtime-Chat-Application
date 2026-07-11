@@ -17,6 +17,8 @@ const FRONTEND_URL = process.env.FRONTEND_URL;
 
 const publicDir = path.join(process.cwd(),"public");
 
+// It is important to use express.raw() middleware before clerkMiddleware() to handle the raw request body for Clerk webhooks.
+app.use("/api/webhooks/clerk" , express.raw({type:"application/json"}), clerkWebhook);
 
 app.use(clerkMiddleware());
 app.use(express.json());
