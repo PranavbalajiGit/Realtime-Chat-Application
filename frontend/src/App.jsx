@@ -1,5 +1,3 @@
-
-import './App.css'
 import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/react'
 
 
