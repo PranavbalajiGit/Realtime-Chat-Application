@@ -1,9 +1,7 @@
 import React from 'react'
 
-function AuthHeroPanel() {
+export function AuthHeroPanel() {
   return (
     <div>AuthHeroPanel</div>
   )
 }
-
-export default AuthHeroPanel

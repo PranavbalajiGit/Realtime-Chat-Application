@@ -1,9 +1,7 @@
 import React from 'react'
 
-function AuthActionPanel() {
+export function AuthActionPanel() {
   return (
     <div>AuthActionPanel</div>
   )
 }
-
-export default AuthActionPanel
