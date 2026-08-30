@@ -5,7 +5,7 @@ import { WallpaperProvider } from './context/WallpaperContext.jsx';
 import { Navigate, Route, Routes } from 'react-router';
 import ChatPage from './pages/ChatPage.jsx';
 import AuthPage from './pages/AuthPage.jsx';
-import PageLoader from './components/auth/PageLoader.jsx';
+import PageLoader from './components/PageLoader.jsx';
 
 function App() {
 
