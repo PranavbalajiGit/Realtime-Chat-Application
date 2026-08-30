@@ -1,8 +1,8 @@
 import { useClerk } from "@clerk/react";
 import { Button } from "@heroui/react";
 import { ArrowRightIcon, ShieldCheckIcon, SparklesIcon } from "lucide-react";
-import { AppLogo } from "../AppLogo";
-import { AuthCardShell } from "./AuthCardShell";
+import { AppLogo } from "../AppLogo.jsx";
+import { AuthCardShell } from "./AuthCardShell.jsx";
 
 const AFTER_AUTH = "/";
 

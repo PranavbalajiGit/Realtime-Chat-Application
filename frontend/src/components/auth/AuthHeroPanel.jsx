@@ -1,5 +1,5 @@
-import { APP_NAME } from "../AppLogo";
-import { AuthHeroPattern } from "./AuthHeroPattern";
+import { APP_NAME } from "../AppLogo.jsx";
+import { AuthHeroPattern } from "./AuthHeroPattern.jsx";
 
 const heroPanelClassName = [
   "relative flex min-h-[min(320px,42vh)] shrink-0 flex-col overflow-hidden",
